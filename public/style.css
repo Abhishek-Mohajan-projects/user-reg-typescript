@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  outline: none;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 9rem;
+  overflow-x: hidden;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+html::-webkit-scrollbar {
+  width: 0.8rem;
+}
+
+html::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+html::-webkit-scrollbar-thumb {
+  background-color: #fff;
+}
+
+body {
+  background-color: palegreen;
+  min-height: 100vh;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.form-field {
+  margin: 15px;
+}
+
+form {
+  background-color: blueviolet;
+  color: white;
+  padding: 2rem;
+  margin: 1rem;
+}
+
+button {
+  display: block;
+  margin: auto;
+  padding: 0.8rem;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  transition: 0.4s all;
+  border-radius: 0.5em;
+}
+
+button:hover {
+  background-color: cyan;
+}
+
+input {
+  width: 100%;
+  padding: 0.6rem;
+}
+
+.feedback {
+  display: flex;
+  margin-bottom: 0.4em;
+}
+
+textarea {
+  resize: none;
+  width: 100%;
+}
+
+select {
+  border: none;
+  outline: none;
+  border: 1px solid purple;
+}

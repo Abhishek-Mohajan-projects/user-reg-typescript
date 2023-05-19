@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Typescript</title>
+  </head>
+  <body>
+    <div class="header">
+      <h1>User Registration</h1>
+
+      <form class="user-form" autocomplete="off">
+        <div class="form-field">
+          <label for="name">Name :</label>
+          <input type="text" name="name" id="name" required />
+        </div>
+
+        <div class="form-field">
+          <label for="email">Email :</label>
+          <input type="email" name="email" id="email" required />
+        </div>
+
+        <div class="form-field">
+          <label for="dob">Date of Birth :</label>
+          <input type="date" name="dob" id="dob" required />
+        </div>
+
+        <div class="form-field">
+          <label for="country">Country :</label>
+          <select name="country" id="country">
+            <option value="">Select</option>
+            <option value="bangladesh">Bangladesh</option>
+            <option value="india">India</option>
+            <option value="england">England</option>
+            <option value="united sates">United States</option>
+          </select>
+        </div>
+
+        <div class="form-field">
+          <label for="feedback" class="feedback">Message :</label>
+          <textarea name="feedback" id="feedback" cols="30" rows="5"></textarea>
+        </div>
+
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+
+    <script src="./../dist/index.js"></script>
+  </body>
+</html>
